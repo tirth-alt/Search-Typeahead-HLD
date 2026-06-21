@@ -1,0 +1,30 @@
+{
+  "name": "typeahead-search",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 8000",
+    "lint": "next lint",
+    "load": "tsx scripts/loadDataset.ts",
+    "bench": "tsx scripts/benchmark.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.4.2",
+    "next": "^15.1.6",
+    "pg": "^8.13.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@types/pg": "^8.11.10",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

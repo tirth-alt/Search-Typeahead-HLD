@@ -1,0 +1,25 @@
+node_modules/
+.DS_Store
+
+# local editor / tooling config
+.claude/
+
+# Next.js build output
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# local config (use .env.example as the template)
+.env
+.env.local
+
+# dataset artifacts (downloaded/generated locally)
+files/*.txt
+files/*.csv
+files/*.zip
+files/*.tsv
+files/aol_data/
+!files/.gitkeep
+
+/tmp/
